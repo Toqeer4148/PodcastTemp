@@ -1,1 +1,59 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Sora', sans-serif; */
+/* font-family: 'Lora', serif; */
+:root{
+    --primary-font:'Sora', sans-serif;
+    --secondary-font:'Lora', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+.hero_section{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+.hero_left{
+    width: 50%;
+    background:url(./hero\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.hero_right{
+    width: 50%;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    width:90%;
+    margin-top: 20px;
+}
+.manu_bar a{
+    text-decoration: none;
+    color: #707c84;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.manu_bar a:hover{
+    color: #131516;
+    transition: 0.2s ease-in-out;
+}
+button{
+    background-color:#f11158;
+    color: #f4f5f6;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-left: 25px;
+    
+}
