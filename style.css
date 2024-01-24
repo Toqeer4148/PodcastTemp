@@ -173,3 +173,112 @@ button:hover{
     display: flex;
     flex-direction: column;
 }
+/* Story Section */
+.story_section_container{
+    padding: 0px 40px 0px 40px;
+    
+}
+.story{
+    display: flex;
+    /* border: 2px solid red; */
+    padding:60px 0px 60px 0px;
+    /* height: 100vh; */
+}
+.story_left{
+    width: 50%;
+    /* border: 2px solid yellow; */
+    /* margin-top: 50px; */
+}
+.story_left h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-right:3.8rem ;
+    margin-bottom: 160px;
+}
+.story_right{
+    width: 50%;
+    /* border: 2px solid green; */
+    /* margin-top: 50px; */
+    padding: 0rem 0rem 0rem 3.8rem;
+}
+.story_right hr{
+    width: 50px;
+    height: 3px;
+    background-color:#707c84;
+}
+.story_right p{
+    color: #707c84;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    line-height: 1.8;
+    font: 16px;
+}
+.story_link_container{
+    display: flex;
+    align-items: center;
+}
+.story_link_container a{
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: #f11158;
+    
+}
+.story_link_container a:hover
+{
+    border-bottom: 1px solid #f11158;
+}
+.story_link_container span{
+    color: #f11158;
+    font-size: 30px;
+}
+
+/* image story section */
+.img_story_section{
+    display: flex;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+}
+.img_section{
+    width: 50%;
+}
+.img_section img{
+    border-radius: 20px;
+}
+.story_text_section{
+    width: 50%;
+    padding: 2.8rem 3.8rem 2.8rem 3.8rem;
+
+}
+.story_text_section h4{
+    color: #f11158;
+}
+.story_text_section h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.story_text_section p{
+    color: #707c84;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.story_btn{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f11158;
+    background-color: transparent;
+    border-radius:50%;
+    margin-left:0px;
+    padding: 16px;
+    transition:0.5s all ease;
+}
+.story_btn:hover{
+    
+    border-color: #f1115854;
+}
+.play_btn{
+    color: #f11158;
+    font-size: 18px;
+}
