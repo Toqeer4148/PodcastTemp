@@ -283,3 +283,58 @@ button:hover{
     font-size: 18px;
 }
 /* Recent Episodes */
+.recent_episodes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+}
+.recent_episodes h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.episodes_btn{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #f4f5f6;
+    align-content: center;
+    border-radius: 25px;
+    padding: 13px 20px;
+}
+.episode_section{
+    display: flex;
+    margin-top: 60px;
+}
+.episode_card img{
+    border-radius: 20px;
+}
+.epi_detail{
+    display: flex;
+    margin-top: 20px;
+}
+.btn_wrapper{
+    display: inline-flex;
+    flex: 0 0 auto;
+}
+.epi_btn{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid #f11158;
+    border-radius: 50%;
+    padding: 8px 16px;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.epi_text h5{
+    font-size:20px;
+}
+.epi_text a{
+    text-decoration: none;
+    color: #131516;
+}
+.epi_text p{
+    padding-top: 10px;
+    color: #707c84;
+    font-family: var(--secondary-font);
+}
