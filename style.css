@@ -18,7 +18,8 @@ body{
 .hero_section{
     display: flex;
     /* border: 2px solid red; */
-    height: 100vh;
+    height: 135vh;
+    margin-bottom: 100px
 }
 .hero_left{
     width: 50%;
@@ -119,4 +120,56 @@ button:hover{
 .link_container span{
     color: #f11158;
     font-size: 30px;
+}
+.card_heading{
+    margin-top: 100px;
+}
+.card_heading h6{
+    font-size: 1rem;
+    color: #707c84;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.card_container{
+    display: flex;
+}
+.card{
+    /* height: 80px;
+    width: 100px; */
+    background-color: white;
+    border-style: solid;
+    border-color: #f4f5f6;
+    border-width: 1px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 0;
+    padding: 16px;
+    font-weight: 600;
+    transition: box-shadow 0.3s ease-in-out;
+    
+}
+.card:hover{
+    box-shadow: 0 0 10px 5px rgb(225, 224, 224); 
+}
+.card a{
+    color:black;
+    cursor: pointer;
+}
+.icon_color{
+    color: #f11158;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#card1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+#card2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+#card3{
+    display: flex;
+    flex-direction: column;
 }
