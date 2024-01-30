@@ -414,6 +414,7 @@ button:hover{
 .host_container2{
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 .host_intro{
@@ -452,4 +453,83 @@ button:hover{
 }
 .social_icons i{
     margin-right: 18px;
+}
+
+/* NewsLetter */
+.news_letter h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 100px 378px 0px 378px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: #131516;
+    line-height: 1.5;
+}
+.sub_crib{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.sub_crib input{
+    height: 44px;
+    width: 25%;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+#news_btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+}
+/* Footer */
+footer{
+    background-color: #ffffff;
+}
+.foot_sec{
+    display: flex;
+    padding: 50px 40px 30px 40px;
+}
+.footer_logo{
+    margin-right: 170px;
+}
+.footer_logo img{
+   height: 80px;
+}
+.foot_nav{
+    margin-right: 310px;
+}
+.foot_nav a{
+    text-decoration: none;
+    color: #131516;
+    font-size: 16px;
+    padding-right: 15px;
+    transition: all .2s ease;
+}
+.foot_nav a:hover{
+    color: #f11158;
+}
+.foot_social i{
+    padding-right: 20px;
+    font-size: 20px;
+    color: #131516;
+    transition: all .2s ease;
+}
+.foot_social i:hover{
+    color: #f11158;
+}
+/* copyright */
+.copyright{
+    min-height: 80px;
+    border-top: 1px solid #f4f5f6;
+}
+.copyright p{
+    font-size: 14px;
+    color: #707c84;
+    font-family: var(--secondary-font);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
